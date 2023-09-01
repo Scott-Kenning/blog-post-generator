@@ -80,7 +80,7 @@ export default function ClientSection() {
   }, [response]);
 
   return (
-    <div className="flex w-screen min-h-screen bg-neutral-100">
+    <div className="flex w-screen min-h-screen bg-neutral-100 p-8">
       <div className="w-full max-w-xl m-auto flex flex-col gap-8 mt-48">
         <h1 className="text-4xl font-bold">AI Powered Blog Post Generator</h1>
         <input
